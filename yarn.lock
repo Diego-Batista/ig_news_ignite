@@ -24,6 +24,23 @@
   "resolved" "https://registry.npmjs.org/@panva/hkdf/-/hkdf-1.0.2.tgz"
   "version" "1.0.2"
 
+"@prismicio/client@^5.1.1":
+  "integrity" "sha512-0wtQrPZCATBmgLklQYgjSrmz3YtMP+5lHakv30MUVyUez2LVoukhVJWTj1uXwsOz2Yh2xLkAp+PHqTOiUvaM/Q=="
+  "resolved" "https://registry.npmjs.org/@prismicio/client/-/client-5.1.1.tgz"
+  "version" "5.1.1"
+  dependencies:
+    "cross-fetch" "^3.0.6"
+
+"@prismicio/helpers@^1.0.4":
+  "integrity" "sha512-YsOfGgauGeTC5Co8zXvz278Lc/V3fyNaAPTs/y4gGrLmLhYa/eT7+USYvDB9RhKEPhYFnUqBiGWa+3l7BksYOQ=="
+  "resolved" "https://registry.npmjs.org/@prismicio/helpers/-/helpers-1.2.0.tgz"
+  "version" "1.2.0"
+
+"@prismicio/richtext@^1.1.0":
+  "integrity" "sha512-925JuFiZiIkwu9jmlR9O/U8xCSZk/Y6BQDXKpavoVsKo+n90ml1hGdtWkglIupX+ITQO1ZINyDgUgiY1oG9dsA=="
+  "resolved" "https://registry.npmjs.org/@prismicio/richtext/-/richtext-1.1.0.tgz"
+  "version" "1.1.0"
+
 "@stripe/stripe-js@^1.29.0":
   "integrity" "sha512-OsUxk0VLlum8E2d6onlEdKuQcvLMs7qTrOXCnl/BGV3fAm65qr6h3e1IZ5AX4lgUlPRrzRcddSOA5DvkKKYLvg=="
   "resolved" "https://registry.npmjs.org/@stripe/stripe-js/-/stripe-js-1.29.0.tgz"
@@ -40,6 +57,11 @@
   "integrity" "sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.35.tgz"
   "version" "17.0.35"
+
+"@types/prismic-dom@^2.1.1":
+  "integrity" "sha512-gZSFBARo4vFnpclOq2DzU9t4wikVsZ0+lL4hXaRoeUJinhGSK+nMERcZJgXglK/+QRcw3HBPbGJzgzTqQGSuNw=="
+  "resolved" "https://registry.npmjs.org/@types/prismic-dom/-/prismic-dom-2.1.1.tgz"
+  "version" "2.1.1"
 
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
@@ -206,7 +228,7 @@
   "resolved" "https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz"
   "version" "0.4.2"
 
-"cross-fetch@^3.1.5":
+"cross-fetch@^3.0.6", "cross-fetch@^3.1.5":
   "integrity" "sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw=="
   "resolved" "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz"
   "version" "3.1.5"
@@ -232,6 +254,11 @@
   "integrity" "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
   "version" "8.0.0"
+
+"escape-html@1.0.3":
+  "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
+  "resolved" "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
+  "version" "1.0.3"
 
 "faunadb@^4.5.4":
   "integrity" "sha512-v0e1aXPhitIGMtuC7NFtp//hyr0d2NtHFcGqsEJgWx49rRJoonZQl6hLQ3lBjhA/LPg26U4R/BAlmDFE2pzsUA=="
@@ -513,6 +540,15 @@
   "integrity" "sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-3.8.0.tgz"
   "version" "3.8.0"
+
+"prismic-dom@^2.2.7":
+  "integrity" "sha512-4rJWzBqq/6h15giAzB6L8+eaWLQJrQcM4EAicmtw3mI8DhussbJOgheTeFtTCgvO7e5QEjZA0he5gEbQYfKGmg=="
+  "resolved" "https://registry.npmjs.org/prismic-dom/-/prismic-dom-2.2.7.tgz"
+  "version" "2.2.7"
+  dependencies:
+    "@prismicio/helpers" "^1.0.4"
+    "@prismicio/richtext" "^1.1.0"
+    "escape-html" "1.0.3"
 
 "qs@^6.10.3":
   "integrity" "sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ=="

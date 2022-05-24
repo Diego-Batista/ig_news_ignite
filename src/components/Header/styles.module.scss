@@ -11,10 +11,18 @@
 
     display: flex;
     align-items: center;
+
+    @media (max-width: 720px) {
+        padding: 0 1rem;
+    }
     
     nav {
         margin-left: 5rem;
         height: 5rem;
+
+        @media (max-width: 720px) {
+            margin: 1rem;
+        }
 
         a {
             display: inline-block;
@@ -26,7 +34,15 @@
             transition: color 0.2s;
 
             & + a {
-                margin-left: 2rem;    
+                margin-left: 2rem;
+                
+                @media (max-width: 720px) {
+                    margin-left: 0
+                }
+            }
+
+            a:first-child {
+                margin-left: 1rem;
             }
 
             &:hover {
@@ -53,5 +69,9 @@
 
     button {
         margin-left: auto;
+
+        @media (max-width: 720px) {
+            margin-left: auto;
+        }
     }
 }

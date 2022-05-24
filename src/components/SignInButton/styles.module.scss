@@ -29,4 +29,13 @@
     &:hover {
         filter: brightness(0.8);
     }
+
+    @media (max-width: 720px) {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        
+        svg:last-child {
+            display: none;
+        }
+    }
 }

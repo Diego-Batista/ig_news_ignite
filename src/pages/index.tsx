@@ -18,7 +18,7 @@ export default function Home({product}: HomeProps) {
       <Head>
           <title>Home | ig.news</title>
           <meta property="og:image" content="/igniteNews.png" />
-        <meta property="og:image:secure_url" content="/igniteNews.png" />
+          <meta property="og:image:secure_url" content="/igniteNews.png" />
       </Head>
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
